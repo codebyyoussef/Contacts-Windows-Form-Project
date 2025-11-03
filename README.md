@@ -21,9 +21,9 @@ A structured Windows Forms application for managing a list of contacts, built us
 
 ## 📷 Screenshots
 
-### 🖥️ Main UI – Contact List with Filtering and Sorting and Add/Edit Contact Form
+### 🖥️ Main UI – Contact List with Filtering and Sorting and Add/Edit Contact
 ![Main UI](screenshots/01-MainForm.png)
-![Add/Edit contact form](screenshots/02 - Add&Editcontact Form.png)
+![Add/Edit contact form](screenshots/02-Add&EditcontactForm.png)
 
 ### ➕ Add Contact Form – Add New Contact Details
 ![Add new contact](screenshots/03-AddNewContact.png)
@@ -34,7 +34,7 @@ A structured Windows Forms application for managing a list of contacts, built us
 
 ### ✏️ Edit Contact Form – Update Existing Contact Information
 ![Contact to updated](screenshots/06-EditContact.png)
-![Edit Name and remove image of contact](screenshots/07-EditContact(Update Name and remove Image).png)
+![Edit Name and remove image of contact](screenshots/07-EditContact(UpdateNameand remove Image).png)
 ![Contact updated Successuflly](screenshots/07-RecordUpdatedSuccessfully.png)
 
 ## 📌 Status
