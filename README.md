@@ -26,21 +26,23 @@ A structured Windows Forms application for managing a list of contacts, built us
 ### ➕ Add/Edit Contact Form – Add New Contact Details
 - Fill contact info, choose image and click save to store data in database.
 ![Add new contact](screenshots/03-AddNewContact.png)
+- As you see the new contact was added successfully.
 ![New contact Info](screenshots/04-RecordAddedSuccessfully.png)
 
 ### Edit or Delete
 - You can edit or delete a contact by click right on specific contact.
 ![Add/Edit contact form](screenshots/05-EditOrDelete.png)
 
-### ✏️ Edit Contact Form – Update Existing Contact Information
-![Contact to updated](screenshots/06-EditContact.png)
-![Edit Name and remove image of contact](screenshots/07-EditContact(UpdateNameand remove Image).png)
+### ✏️ Edit Contact Form – Update Existing Contact Information(FirstName, remove image)
+- You can update anything you want, I changed firstname from Yousef to Youssef and I removed the image.
+![Edit Name and remove image of contact](screenshots/07-EditContact(UpdateNameandRemoveImage).png)
 ![Contact updated Successuflly](screenshots/07-RecordUpdatedSuccessfully.png)
 
 ## 📌 Notes
 - I didin't put any validations because the goal of this project was to learn how to connect to database and retrieve, store or manipilate data.
 
 ## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/codebyyoussef/Contacts-Windows-Form-Project.git
+1. Download "Contacts - WinForms.rar" above, click on it and then click on view raw and the file will start downloading.
+2. Download Contacts database:
+   - Open SQL Server Management Studio 21
+   - Click on New query and write this script: restore database ContactsDB from disk = 'DatabasePath\DatabaseName.bak' // don't forget .bak
