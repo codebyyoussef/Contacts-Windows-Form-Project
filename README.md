@@ -46,3 +46,5 @@ A structured Windows Forms application for managing a list of contacts, built us
 2. Download Contacts database:
    - Open SQL Server Management Studio 21
    - Click on New query and write this script: restore database ContactsDB from disk = 'DatabasePath\DatabaseName.bak' // don't forget .bak
+3. On Visul studio open file explorer(ctrl + alt + L) and click on ContactsDataAccessLayer you will find a class named clsContactsDataAccessSettings
+   Change connectionString with your database connection info(User ID, Password)
